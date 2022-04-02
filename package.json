@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/consumer.js",
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqp": "^0.2.7",
+    "amqplib": "^0.8.0",
     "dotenv": "^16.0.0",
     "nodemailer": "^6.7.3",
     "pg": "^8.7.3"
