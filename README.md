@@ -1,6 +1,6 @@
 # Open Music API Queue Consumer
 
-This is a branch project of the OpenMusic API intended for consuming queue from message broker.
+This is a branch project of the OpenMusic API intended for consuming queue from message broker to send email with exported playlist songs data.
 
 ## Links
 
